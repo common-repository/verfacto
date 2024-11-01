@@ -1,0 +1,264 @@
+/* SignUp/Login form */
+.verfacto-form {
+  padding: 19.5px 0px 40px 40px;
+}
+.verfacto-form a {
+  color: #5b6ce7;
+}
+
+.verfacto-tab-group li a {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #5b6ce7;
+}
+
+.verfacto-field-wrap {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.verfacto-field-wrap input {
+  font-size: 14px;
+  background: #ffffff;
+  border: 1px solid #aaaaaa;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 4px;
+  min-height: 30px;
+  padding: 0px 7px;
+}
+
+.verfacto-field-wrap label {
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #32373d;
+  padding-left: 1px;
+}
+
+.verfacto-field-wrap input:focus {
+  border: 1px solid #5b6ce7;
+  box-shadow: none;
+}
+
+.verfacto-page-wrapper {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  min-width: 300px;
+  max-width: 712px;
+}
+
+.verfacto-page-head {
+  color: #32373d;
+  min-height: 100px;
+  padding: 20px 0;
+  display: flex;
+}
+
+.verfacto-head-content {
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+}
+
+.verfacto-head-content img {
+  margin-right: 3.1%;
+  float: left;
+  padding: 6px 0;
+}
+
+.verfacto-page-content {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  max-width: 712px;
+}
+
+.verfacto-page-content-header {
+  height: 108px;
+  display: flex;
+  align-items: center;
+  background-color: #0c0b11;
+  border-radius: 4px 4px 0px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.verfacto-page-content-header .verfacto-gradient-circle {
+  position: absolute;
+  background: linear-gradient(135deg, #28addf 0%, #6b42d0 100%);
+  opacity: 0.4;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  right: -30px;
+  top: 20px;
+}
+
+.verfacto-page-footer {
+  margin-top: 25px;
+}
+
+.verfacto-troubles-list {
+  margin-top: 15px;
+}
+
+.verfacto-troubles-list li {
+  margin-bottom: 0px;
+}
+
+.verfacto-page-footer a {
+  color: #5b6ce7;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.verfacto-head-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.7px;
+  display: flex;
+  min-width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.verfacto-head-title span {
+  font-size: 16px;
+  line-height: 22px;
+  display: contents;
+  letter-spacing: 0.4px;
+}
+
+/* ----- Verfacto message ----- */
+.verfacto-form-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 20px 70px;
+  display: block;
+}
+
+/* ----- Title style ----- */
+.verfacto-page-title h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #ffffff;
+  margin: 0;
+  min-width: 300px;
+  padding-left: 40px;
+}
+
+/* ----- Description style ----- */
+.verfacto-page-description {
+  display: block;
+  padding: 32px 40px;
+}
+
+/* ----- Description title style ----- */
+.verfacto-page-description-title h3 {
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* ----- Description text style ----- */
+.verfacto-page-description-text {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* ----- Description list style ----- */
+.verfacto-page-description-list {
+  margin-left: 0;
+  padding-left: 25px;
+}
+
+/* ----- Button style ----- */
+.verfacto-button {
+  display: inline-block;
+  margin-top: 16px;
+  margin-right: 20px;
+  background: #ff006b;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 7px 15px;
+  text-decoration: none;
+  text-align: center;
+  max-width: 200px;
+}
+
+.verfacto-button:disabled,
+.verfacto-button[disabled] {
+  background: #d1d1d1;
+}
+
+.verfacto-forget-password {
+  display: block;
+  margin-bottom: 40px;
+  padding-left: 2px;
+}
+
+.verfacto-button:hover,
+.verfacto-button:focus {
+  color: #ffffff;
+  box-shadow: none;
+  outline: 0;
+}
+
+.verfacto-button:hover {
+  filter: brightness(90%);
+}
+
+/* ----- Verfacto error message's ----- */
+.verfacto-error-message {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #eeeeee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  margin: 10px auto;
+  font-size: 16px;
+}
+.verfacto-error-message a {
+  text-decoration: none;
+}
+.verfacto-error-danger {
+  border-left-color: #d9534f;
+  background-color: rgba(217, 83, 79, 0.1);
+}
+
+/* ----- Verfacto loader ----- */
+.verfacto-loader {
+  height: 19px;
+  width: 19px;
+  border: 4px solid rgba(109, 121, 219, 0.1);
+  border-top-color: #6d79db;
+  border-radius: 100%;
+  animation: verfacto-rotation 0.6s infinite linear 0.25s;
+  opacity: 0;
+  display: flex;
+  visibility: hidden;
+}
+
+@keyframes verfacto-rotation {
+  from {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(359deg);
+  }
+}
